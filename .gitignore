@@ -1,0 +1,17 @@
+@'
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+
+# Work dirs
+workspace/
+
+# Generated docs we don't need in repo
+docs/*.json
+
+# Keep README.md and Markdown files tracked!
+# (Do NOT put *.md here)
+'@ | Set-Content .gitignore -Encoding UTF8
